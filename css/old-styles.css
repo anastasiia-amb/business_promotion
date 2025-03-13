@@ -263,6 +263,7 @@ button {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-bottom: 100px;
 }
 
 .customer-text-container {
@@ -328,9 +329,54 @@ button {
 
 /* #endregion customer */
 
-/* #region process */
-.process {
+/* #region collaborative */
+
+.collaborative-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 150px;
 }
+.collaborative-text-container {
+  padding-right: 84px;
+}
+.coll-title-text {
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+.coll-title {
+  font-weight: 700;
+  font-size: 32px;
+  margin-bottom: 28px;
+}
+.coll-descr {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.62;
+  margin-bottom: 27px;
+  max-width: 486px;
+}
+.coll-subtitle {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.62;
+}
+.coll-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.62;
+  max-width: 486px;
+}
+
+.coll-item:not(:last-child) {
+  margin-bottom: 25px;
+}
+
+/* #endregion collaborative */
+
+/* #region process */
+
 .process-container {
   max-width: 956px;
 }
@@ -343,7 +389,7 @@ button {
   font-size: 32px;
   text-align: center;
   color: #22343d;
-  margin-bottom: 0 auto 25px auto;
+  margin-bottom: 25px;
 }
 .process-title-text {
   max-width: 540px;
@@ -351,7 +397,7 @@ button {
   line-height: 1.62;
   text-align: center;
   color: #22343d;
-  margin-bottom: 0 auto 40px auto;
+  margin-bottom: 40px;
 }
 .process-list {
   display: flex;
