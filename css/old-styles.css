@@ -379,16 +379,13 @@ button {
 
 .process-container {
   max-width: 956px;
+  margin-bottom: 100px;
 }
-.container {
-}
-.process-container {
-}
+
 .process-title {
   font-weight: 700;
   font-size: 32px;
   text-align: center;
-  color: #22343d;
   margin-bottom: 25px;
 }
 .process-title-text {
@@ -396,7 +393,6 @@ button {
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
-  color: #22343d;
   margin-bottom: 40px;
 }
 .process-list {
