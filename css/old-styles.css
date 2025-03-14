@@ -459,8 +459,9 @@ button {
 /* #region footer */
 .footer-container {
   display: flex;
-  align-items: center;
-  margin-left: 125px;
+  align-items: start;
+  justify-content: center;
+  gap: 50px;
 }
 .footer-cont-social {
   font-weight: 700;
@@ -469,28 +470,111 @@ button {
   color: #173a56;
   padding-right: 146px;
 }
-.logo-cont {
-}
-.footer-logo {
-}
-.footer-logo-icon {
-}
-.social-cont {
-}
+
 .footer-social-list {
   display: flex;
   align-items: center;
-  flex-direction: row;
   margin-top: 18px;
   gap: 16px;
-  /* width: 40px;
-  height: 40px; */
 }
 .footer-social-item {
-  border-radius: 100%;
-  fill: #edfffc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
 }
+
+.footer-social-link {
+  border-radius: 50%;
+  background-color: #edfffc;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .footer-social-icon {
-  stroke: #02897a;
+  fill: #02897a;
 }
+
+.resourse-cont {
+}
+.footer-cont-text {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.5;
+}
+.resourse-cont-list {
+}
+.resourse-cont-item {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 2.19;
+}
+.stuff-cont {
+}
+.staff-cont-list {
+}
+.stuff-cont-item {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 2.19;
+}
+.form-cont {
+}
+.footer-form-text {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+.footer-form {
+}
+.footer-label {
+  position: relative;
+  display: block;
+  margin-bottom: 25px;
+}
+.footer-input {
+  border: 1px solid #bcd0e5;
+  border-radius: 4px;
+  width: 325px;
+  height: 48px;
+  padding-left: 42px;
+  background-color: transparent;
+}
+.footer-input::placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.75;
+  color: #02897a;
+}
+
+.footer-form-icon {
+  position: absolute;
+  top: 50%;
+  left: 12px;
+  transform: translateY(-50%);
+  fill: #02897a;
+}
+.footer-form-btn {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  text-align: center;
+  color: #fff;
+  border-radius: 4px;
+  min-width: 131px;
+  height: 39px;
+  background-color: #02897a;
+  border: none;
+}
+.footer-text {
+  font-weight: 400;
+  line-height: 1.88;
+  margin: 0 auto;
+}
+
 /* #endregion footer */
